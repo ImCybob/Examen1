@@ -22,6 +22,6 @@ app.get('/home', (req,res)=>{
 })
 
 //Lanazar app
-app.listen(8083, ()=> {  // con el puerto 8080
+app.listen(8080, ()=> {  // con el puerto 8080
     console.log("Servidor en linea :)");
 }) ;
